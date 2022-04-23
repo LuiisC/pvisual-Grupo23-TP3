@@ -5,7 +5,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 		Scanner ingresar = new Scanner(System.in);
-		int[] multiplicandos = {0,1,2,3,4,5,6,7,8,9};
+		int[] multiplicandos = {0,1,2,3,4,5,6,7,8,9,10};
 		String respuesta=null;
 		do {
 			System.out.println("Ingrese un valor para mostrar la tabla");
@@ -15,8 +15,8 @@ public class Principal {
 			 }
 			else {
 				System.out.println("Tabla de multiplicar de " + valor);
-				for (int i=0;i<=10;i++) {
-					System.out.println(valor+" x "+i+"= " +(valor*i));
+				for (int i=0;i<multiplicandos.length;i++) {
+					System.out.println(valor+" x "+multiplicandos[i]+"= " +(valor*multiplicandos[i]));
 				}
 			}
 			System.out.println("Desea ingresar otro numero? (S/N)");
