@@ -4,14 +4,14 @@ public class Alumno {
 	
 	public String nombre;
 	public String apellido;
-	public int lu;
+	public String lu;
 	public double[] notas;
 
 
-	public Alumno(String nomb,String ap, int lu,double[] notas) {
+	public Alumno(String nomb,String ap, String lu2,double[] notas) {
 		nombre=nomb;
 		apellido=ap;
-		this.lu=lu;
+		this.lu=lu2;
 		this.notas=notas;
 		
 	}
